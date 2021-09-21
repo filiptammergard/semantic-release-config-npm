@@ -1,3 +1,3 @@
 module.exports = {
-  extends: require("./index"),
+  extends: "@tammergard/semantic-release-config-npm",
 }
