@@ -8,10 +8,10 @@ Install this Semantic Release config:
 
 ```bash
 # npm
-npm install @tammergard/prettier-config prettier --save-dev
+npm install @tammergard/semantic-release-config-npm semantic-release --save-dev
 
 # yarn
-yarn add @tammergard/prettier-config prettier --dev
+yarn add @tammergard/semantic-release-config-npm semantic-release --dev
 ```
 
 ## Usage
