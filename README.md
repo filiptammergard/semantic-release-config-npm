@@ -24,6 +24,8 @@ module.exports = {
 }
 ```
 
+See this project's CI workflow config (`.github/workflows/ci.yaml`) for an example on how to use it.
+
 ## License
 
 MIT
