@@ -1,0 +1,34 @@
+{
+  "name": "@tammergard/semantic-release-config-npm",
+  "version": "0.0.0-development",
+  "description": "A sharable Semantic Release config with personal preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiptammergard/semantic-release-config-npm.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "config",
+    "semantic-release-config",
+    "npm"
+  ],
+  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filiptammergard/semantic-release-config-npm/issues"
+  },
+  "homepage": "https://github.com/filiptammergard/semantic-release-config-npm#readme"
+}
