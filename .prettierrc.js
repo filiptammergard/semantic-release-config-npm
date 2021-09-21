@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("./index"),
+  ...require("@tammergard/prettier-config"),
 }
