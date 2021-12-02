@@ -3,8 +3,15 @@
   "version": "0.0.0-development",
   "description": "A sharable Semantic Release config with personal preferences",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "review": "npm ci && npm run lint && npm run prettier"
+  },
   "devDependencies": {
+    "@tammergard/eslint-config-base": "2.0.0",
     "@tammergard/prettier-config": "1.4.0",
+    "eslint": "8.3.0",
     "prettier": "2.5.0",
     "semantic-release": "18.0.1"
   },

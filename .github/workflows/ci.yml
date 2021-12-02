@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-jobs:   
+jobs:
   release:
     runs-on: ubuntu-latest
     steps:
@@ -17,9 +17,9 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm install
-      
+      - name: Review
+        run: npm run review
+
       - name: Run semantic-release
         run: npx semantic-release
         env:
