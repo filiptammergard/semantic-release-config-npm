@@ -20,10 +20,10 @@ jobs:
           node-version: 16
 
       - name: Review
-        run: npm run review
+        run: yarn review
 
       - name: Run semantic-release
-        run: npx semantic-release
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
