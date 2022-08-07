@@ -13,4 +13,5 @@ module.exports = {
     "@semantic-release/npm",
     "@semantic-release/release-notes-generator",
   ],
+  preset: "conventionalcommits",
 }
