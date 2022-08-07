@@ -8,6 +8,9 @@
     "lint": "eslint .",
     "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
   },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "5.0.0"
+  },
   "devDependencies": {
     "@tammergard/eslint-config-base": "3.0.0",
     "@tammergard/prettier-config": "1.5.0",
