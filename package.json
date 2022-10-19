@@ -1,47 +1,47 @@
 {
-  "name": "@tammergard/semantic-release-config-npm",
-  "version": "0.0.0-development",
-  "description": "A sharable Semantic Release config with personal preferences",
-  "scripts": {
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
-    "lint": "eslint .",
-    "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
-  },
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "5.0.0"
-  },
-  "devDependencies": {
-    "@tammergard/eslint-config-base": "3.0.0",
-    "@tammergard/prettier-config": "1.5.0",
-    "eslint": "8.25.0",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.5"
-  },
-  "peerDependencies": {
-    "semantic-release": ">=19.0.0"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/filiptammergard/semantic-release-config-npm.git"
-  },
-  "keywords": [
-    "semantic-release",
-    "config",
-    "semantic-release-config",
-    "npm"
-  ],
-  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/filiptammergard/semantic-release-config-npm/issues"
-  },
-  "homepage": "https://github.com/filiptammergard/semantic-release-config-npm#readme"
+	"name": "@tammergard/semantic-release-config-npm",
+	"version": "0.0.0-development",
+	"description": "A sharable Semantic Release config with personal preferences",
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"lint": "eslint .",
+		"review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
+	},
+	"dependencies": {
+		"conventional-changelog-conventionalcommits": "5.0.0"
+	},
+	"devDependencies": {
+		"@tammergard/eslint-config-base": "3.0.0",
+		"@tammergard/prettier-config": "2.0.0",
+		"eslint": "8.25.0",
+		"prettier": "2.7.1",
+		"semantic-release": "19.0.5"
+	},
+	"peerDependencies": {
+		"semantic-release": ">=19.0.0"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/semantic-release-config-npm.git"
+	},
+	"keywords": [
+		"semantic-release",
+		"config",
+		"semantic-release-config",
+		"npm"
+	],
+	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/filiptammergard/semantic-release-config-npm/issues"
+	},
+	"homepage": "https://github.com/filiptammergard/semantic-release-config-npm#readme"
 }

@@ -20,7 +20,7 @@ Add the config to your `.releaserc.js` file:
 
 ```js
 module.exports = {
-  extends: "@tammergard/semantic-release-config-npm",
+	extends: "@tammergard/semantic-release-config-npm",
 }
 ```
 
