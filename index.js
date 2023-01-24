@@ -14,4 +14,6 @@ module.exports = {
 		"@semantic-release/release-notes-generator",
 	],
 	preset: "conventionalcommits",
+	fail: false,
+	success: false,
 }
